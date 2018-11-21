@@ -127,9 +127,10 @@ interface C{
 #### আর একটি সোর্স ফাইলে কোনো পাবলিক ক্লাস না থাকলেও প্রোগ্রাম ঠিক ঠাক ভাবে রান করবে। 
 ### Access Modifiers:
 #### জাভাতে চার ধরনের এক্সেস মোডিফায়ার আছে । 
-* public
+* private
 * protected
 * default
-* private
+* public
+
 
 
