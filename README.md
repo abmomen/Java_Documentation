@@ -251,12 +251,15 @@ class C implements A,B{}
 interface Vegetarian{}
 class Animal{}
 class Deer extends Animal implements Vegetarian{} 
+class DeerCub extends Deer{}
 ```
 উপরের উদাহরণে ডেয়ার ক্লাসটি নিচের চারটি IS-A রিলেশান দেখাতে পারে । 
 * Deer IS-A Animal
 * Deer IS-A Vegetarian
 * Deer IS-A Deer
-* Deer IS-A Object 
+* Deer IS-A Object
+
 জাভার যে কোন অবজেক্ট যা দুইটার বেশি IS-A রিলেশান পাস করবে তাদের পলিমরফিক অবজেক্ট বলে ।  
+উপরের ক্লাস গুলোর মেথড ও ভেরিয়েবল গুলো ইনহেরিটেন্স এর নিয়োম ঊনজায়ী কাজ করবে ।  
 
 
